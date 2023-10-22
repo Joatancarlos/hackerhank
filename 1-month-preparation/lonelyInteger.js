@@ -5,5 +5,6 @@ function lonelyinteger(a) {
   }
   return resultado
 }
-
+console.time()
 lonelyinteger([1, 2, 3, 4, 3, 2, 1])
+console.timeEnd()
