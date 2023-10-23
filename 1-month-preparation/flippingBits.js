@@ -5,7 +5,6 @@ function flippingBits(n) {
 
 flippingBits(0)
 
-// Converter o número para 32 bits
-// Inverter os O's para 1's e vice-versa
-// Converter o novo conjunto de bits para um número
-// Retornar o número
+// - n ^ 4294967295: O operador ^ é o operador XOR (OU exclusivo), que realiza uma operação bitwise XOR entre n e 4294967295. 4294967295 é uma máscara binária que consiste em todos os bits definidos como 1. Em representação binária, 4294967295 é 11111111111111111111111111111111. Quando você executa a operação XOR com essa máscara, todos os bits de n são invertidos.
+
+// - >>> 32: Em seguida, a operação de deslocamento à direita sem sinal é usada com >>> 32. Isso desloca todos os bits em n ^ 4294967295 32 posições para a direita, preenchendo os bits à esquerda com zeros. O resultado é o valor invertido dos bits originais em n.
