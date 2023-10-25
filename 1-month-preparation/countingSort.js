@@ -1,4 +1,4 @@
-const mock = require('./mock')
+const mock = require('./countingSort.mock')
 function countingSort(arr) {
   let zerosArr = Array(100).fill(0)
   for (let num of arr) {
