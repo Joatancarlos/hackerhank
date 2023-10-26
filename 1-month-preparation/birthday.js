@@ -7,7 +7,7 @@ function birthday(s, d, m) {
   }
   return ways;
 }
-console.log(ways);
+
 console.time()
 birthday([4], 4, 1)
 console.timeEnd()
